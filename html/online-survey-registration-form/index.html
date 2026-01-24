@@ -36,7 +36,111 @@
 
  <!-- Personal Information -->
  <section>
-  
+  <fieldset>
+   <legend>
+    <h2>Personal Information</h2>
+   </legend>
+
+   <fieldset>
+    <form>
+     <figure>
+      <figcaption>
+       <b>First Name</b>
+      </figcaption>
+      <input type="text" size="30" placeholder="example: Juan" minlength="2">
+     </figure>
+
+     <figure>
+      <figcaption>
+       <b>Middle Name</b>
+      </figcaption>
+      <input type="text" size="30" placeholder="example: Dela" minlength="2">
+     </figure>
+
+     <figure>
+      <figcaption>
+       <b>Last Name</b>
+      </figcaption>
+      <input type="text" size="30" placeholder="example: Cruz" minlength="2">
+     </figure>
+     
+     <figure>
+      <figcaption>
+       <b>Email Address</b>
+      </figcaption>
+      <input type="email" size="30" placeholder="example: juandelacruz@gmail.com">
+      <br>
+      <caption>
+       (Used for confirmation)
+      </caption>
+     </figure>
+
+     <figure>
+      <figcaption>
+       <b>Contact Number</b>
+      </figcaption>
+      <input type="tel" size="30" placeholder="example: +639-12-123-4567">
+      <br>
+      <caption>
+       (Active number)
+      </caption>
+     </figure>
+
+     <figure>
+      <figcaption>
+       <b>Age</b>
+      </figcaption>
+      <input type="number" size="30" placeholder="example: 21">
+     </figure>
+
+     <figure>
+      <figcaption>
+       <b>Date of Birth</b>
+      </figcaption>
+      <input type="date" min="1900-01-01" max="2020-12-31">
+     </figure>
+
+     <figure>
+      <fieldset>
+       <legend>
+        <b>Compelete Address</b>
+       </legend>
+
+       <figure>
+        <figcaption>
+         <b>Street</b>
+        </figcaption>
+        <input type="text" size="30" placeholder="example: Quirino st.">
+       </figure>
+
+       <figure>
+        <figcaption>
+         <b>Country</b>
+        </figcaption>
+        <input list="country" size="30" placeholder="example: South Korea">
+        <datalist id="country">
+         <option>Philippines</option>
+         <option>Canada</option>
+         <option>Sweden</option>
+         <option>England</option>
+         <option>Switzerland</option>
+        </datalist>
+       </figure>
+
+       <figure>
+        <figcaption>
+         <legend>
+          <b>Province</b>
+         </legend>
+        </figcaption>
+       </figure>
+      </fieldset>
+     </figure>
+    </form>
+   </fieldset>
+
+   
+  </fieldset>
  </section>
 </body>
 
